@@ -17,6 +17,7 @@
     "method-override": "^3.0.0",
     "mysql2": "^3.5.1",
     "mysql2-promise": "^0.1.4",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "nohup": "^0.1.0"
   }
 }
