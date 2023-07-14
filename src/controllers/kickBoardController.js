@@ -1,7 +1,7 @@
 const express = require('express');
 const baseResponse = require('../config/baseResponse');
 const {successResponse, errResponse} = require('../config/response');
-const KickBoard = require('../../models/KickBoard');
+const KickBoard = require('../models/KickBoard');
 
 // get요청 작성
 const output = {
