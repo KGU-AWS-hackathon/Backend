@@ -15,5 +15,8 @@ app.use(methodOverride());
 
 app.use('/', routerHome);
 
+app.set('views', './src/views');
+app.set('view engine', 'ejs');
+
 module.exports = app;
 

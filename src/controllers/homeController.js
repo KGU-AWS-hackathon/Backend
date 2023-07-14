@@ -7,6 +7,9 @@ const db = require('../config/database');
 const output = {
     home : async (req, res) => {
         res.send(successResponse(baseResponse.SUCCESS));
+    },
+    map: async (req, res) => {
+        res.render("index");
     }
 };
 
